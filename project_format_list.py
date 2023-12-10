@@ -12,7 +12,7 @@ def get_project_info(input_prompt):
     return values
 
 def projectlist_formatter(project_names, project_descriptions):
-    """Format lists of names/descriptions"""
+    """Format lists of project names/descriptions"""
     project_list = zip(project_names, project_descriptions)
     for project, desc in project_list:
         print(f"\n{project}: \n{desc}")
